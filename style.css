@@ -1,6 +1,6 @@
 h1{
     color: red;
-    font-size:46pt;
+    font-size:200pt;
     text-align: center;
     padding-bottom: none;
     margin-bottom: none;
@@ -12,6 +12,10 @@ h1{
 .passage{
     text-align: center;
     border: white,solid,2px;
+}
+
+.link{
+    padding-bottom:5px ;
 }
 
 .triangle{
