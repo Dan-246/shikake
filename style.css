@@ -1,6 +1,12 @@
 h1{
     color: red;
     font-size: 56pt;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.passage{
+    border-color: white solid 5px;
 }
 
 body{
