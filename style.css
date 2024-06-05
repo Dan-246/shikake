@@ -1,13 +1,17 @@
-h1{
+h3{
     color: red;
-    font-size: 56pt;
+    font-size:46pt;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: none;
+    margin-bottom: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid,red,2px;
 }
 
 .passage{
-    border-color: white solid 5px;
     text-align: center;
+    border: white,solid,2px;
 }
 
 body{
