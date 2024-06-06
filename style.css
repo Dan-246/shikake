@@ -11,6 +11,13 @@ h1{
     /*border: solid,red,2px;*/
 }
 
+.timer{
+    color: red;
+    font-size: 50pt;
+    font-weight: bold;
+    text-align: center;
+}
+
 .passage{
     text-align: center;
     border: white,solid,2px;
