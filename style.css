@@ -1,6 +1,6 @@
 h1{
     color: red;
-    font-size: 200%;
+    font-size: 80px;
     text-align: center;
     padding-bottom: none;
     margin-bottom: none;
@@ -15,6 +15,7 @@ h1{
     text-align: center;
     border: white,solid,2px;
     color: white;
+    font-size: 30pt;
     text-align: center;
     font-size: 20pt;
     width: 70%;
