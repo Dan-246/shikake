@@ -18,7 +18,9 @@ h1{
     text-align: center;
     border: 1px solid white;
     width: 60%;
-    margin: auto;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button{
