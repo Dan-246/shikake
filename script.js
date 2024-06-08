@@ -17,7 +17,7 @@ var timeId = setInterval(() => {
   if (diffSec <= 0) {
     clearInterval(timeId);
     // タイマー終了の文言を表示する
-    text = "終了";
+    text = "Your device is over...";
   }
 
   // 画面に表示する

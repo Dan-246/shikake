@@ -32,7 +32,7 @@ body{
     color: white;
     text-align: center;
     font-size: 40pt;
-    width: 50%;
+    width: 80%;
     padding: auto 20%;
     margin: 0 auto;
 }
@@ -67,4 +67,11 @@ h1{
     margin-bottom: none;
     margin: auto auto;
     /*border: solid,red,2px;*/
+}
+
+.timer span{opacity: 0;}
+.timer.appeartext span{ animation:text_anime_on 1s ease-out forwards; }
+@keyframes text_anime_on {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
