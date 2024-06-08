@@ -21,7 +21,9 @@ body{
     width: 50%;
     height: 100px;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+    font-size: 70pt;
+    font-weight: bold;
 }
 
 .passage{
@@ -31,7 +33,20 @@ body{
     text-align: center;
     font-size: 40pt;
     width: 50%;
+    padding: auto 20%;
     margin: 0 auto;
+}
+
+.virus{
+    font-size: 50pt;
+    color: red;
+    font-weight: bolder;
+}
+
+.thisButton{
+    font-size: 50pt;
+    color: yellow;
+    font-weight: bolder;
 }
 
 .triangle{
