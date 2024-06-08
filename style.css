@@ -6,7 +6,7 @@ body{
 
 .timer{
     color: red;
-    font-size: 50pt;
+    font-size: 80pt;
     font-weight: bold;
     text-align: center;
     border: 1px solid white;
@@ -14,6 +14,7 @@ body{
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20pt;
 }
 
 .button{
@@ -46,9 +47,8 @@ h1{
     color: red;
     font-size: 150px;
     text-align: center;
-    padding-bottom: none;
+    padding-bottom: 20px;;
     margin-bottom: none;
-    width: 70%;
     margin: auto auto;
     /*border: solid,red,2px;*/
 }

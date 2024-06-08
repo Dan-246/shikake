@@ -21,5 +21,6 @@ var timeId = setInterval(() => {
   }
 
   // 画面に表示する
-  document.querySelector('.timer').innerHTML = text;
+  document.querySelector('.timer').innerHTML = text + "s";
 })
+
