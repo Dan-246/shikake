@@ -11,7 +11,7 @@ var timeId = setInterval(() => {
   //ミリ秒を整数に変換
   var remainSec = diffSec / 1000;
 
-  var text = (remainSec+"0").slice(0,5);
+  var text = (remainSec+"0").slice(0,5) + "s";
   
   // 0秒以下になったら
   if (diffSec <= 0) {
@@ -21,6 +21,6 @@ var timeId = setInterval(() => {
   }
 
   // 画面に表示する
-  document.querySelector('.timer').innerHTML = text + "s";
+  document.querySelector('.timer').innerHTML = text;
 })
 
