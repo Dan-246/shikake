@@ -1,4 +1,4 @@
-var totalTime = 30000;
+var totalTime = 15000;
 var oldTime = Date.now();
 
 var timeId = setInterval(() => {
@@ -17,7 +17,7 @@ var timeId = setInterval(() => {
   if (diffSec <= 0) {
     clearInterval(timeId);
     // タイマー終了の文言を表示する
-    text = "Your device is over...";
+    text = "Sorry...This is the page to improve your media literacy!";
   }
 
   // 画面に表示する
