@@ -17,10 +17,12 @@ var timeId = setInterval(() => {
   if (diffSec <= 0) {
     clearInterval(timeId);
     // タイマー終了の文言を表示する
-    text = "Sorry...This is the page to improve your media literacy!";
+    text = "Game Over";
   }
 
   // 画面に表示する
   document.querySelector('.timer').innerHTML = text;
 })
-
+setTimeout(function(){
+  window.location.href = 'https://dan-246.github.io/shikake2/';
+}, 19*1000)
